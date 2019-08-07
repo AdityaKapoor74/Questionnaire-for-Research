@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+
+</head>
+<body>
+<header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+{#        <a class="navbar-brand" href="#">Fixed navbar</a>#}
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+{#            <li class="nav-item">#}
+{#              <a class="nav-link disabled" href="#">Disabled</a>#}
+{#            </li>#}
+          </ul>
+        </div>
+      </nav>
+    </header>
+<br>
+<br>
+<br>
+<br>
+{% if error %}
+<h3>{{ error }}</h3>
+<br>
+<br>
+{% endif %}
+<div class="container">
+<br>
+<hr>
+<div class="row justify-content-center">
+<div class="col-md-6">
+<div class="card">
+<article class="card-body">
+<form method="POST" action="{% url 'register_done' %}" enctype="multipart/form-data">
+    {% csrf_token %}
+	<div class="form-row">
+		<div class="col form-group">
+			<label>First name </label>
+		  	<input type="text" class="form-control" name="firstname" placeholder="">
+		</div> <!-- form-group end.// -->
+		<div class="col form-group">
+			<label>Last name</label>
+		  	<input type="text" class="form-control" name="lastname" placeholder="">
+		</div> <!-- form-group end.// -->
+	</div> <!-- form-row end.// -->
+	<div class="form-group">
+		<label>Email address</label>
+		<input type="email" class="form-control" name="email" placeholder="example@gmail.com">
+		<small class="form-text text-muted">We'll never share your email with anyone else.</small>
+	</div> <!-- form-group end.// -->
+	<div class="form-group">
+			<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="option1" value="gender">
+		  <span class="form-check-label"> Male </span>
+		</label>
+		<label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="option2" value="gender">
+		  <span class="form-check-label"> Female</span>
+		</label>
+        <label class="form-check form-check-inline">
+		  <input class="form-check-input" type="radio" name="option3" value="gender">
+		  <span class="form-check-label"> Other </span>
+		</label>
+	</div> <!-- form-group end.// -->
+	<div class="form-row">
+		<div class="form-group col-md-6">
+		  <label>City</label>
+		  <input type="text" class="form-control" name="city">
+		</div> <!-- form-group end.// -->
+		<div class="form-group col-md-6">
+		  <label>Country</label>
+		  <select id="inputState" class="form-control" name="country">
+		    <option> Choose...</option>
+		      <option>Uzbekistan</option>
+		      <option>Russia</option>
+		      <option selected="">India</option>
+		      <option>United States</option>
+		      <option>Afganistan</option>
+		  </select>
+		</div> <!-- form-group end.// -->
+	</div> <!-- form-row.// -->
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Register  </button>
+    </div> <!-- form-group// -->
+</form>
+</article> <!-- card-body end .// -->
+</div> <!-- col.//-->
+</div> <!-- row.//-->
+</div>
+<!--container end.//-->
+
+<br><br>
+</body>
+</html>
+
