@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9b02dd-dae1-47a6-8fb6-fd30c0309f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" afterDir="false" />

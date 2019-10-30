@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5256f26-c37b-46bd-9e57-a3f66772c34b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/templates/OneByOne/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/templates/OneByOne/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Questionnaire_pt1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/Questionnaire_pt2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/Questionnaire_pt2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
