@@ -25,7 +25,7 @@ SECRET_KEY = 'cs6k9*0r6biitovqfjc+88e3oxr=0vd(#l(siu=w_f79mr#bb%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0', 'localhost','mighty-tor-88148.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
