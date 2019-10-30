@@ -90,7 +90,7 @@
 <h3>{{ error }}</h3>
 <br>
 <br>
-{% endif %}
+{% else %}
 <form method="POST" action="{% url 'save_responses' %}" enctype="multipart/form-data">
 {% csrf_token %}
   <h2 align="center">{{ question.question_text_for_real_test }}</h2>
@@ -159,5 +159,6 @@
         </div>
 {% endfor %}
 </form>
+{% endif %}
 </body>
 </html>

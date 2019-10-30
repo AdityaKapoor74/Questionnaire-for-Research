@@ -3,10 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9b02dd-dae1-47a6-8fb6-fd30c0309f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questionnaire_pt2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Questionnaire_pt1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +99,10 @@
       <workItem from="1571290589196" duration="2620000" />
       <workItem from="1571824871494" duration="782000" />
       <workItem from="1571825808877" duration="1050000" />
-      <workItem from="1571850928929" duration="15829000" />
+      <workItem from="1571850928929" duration="16613000" />
+      <workItem from="1572082631068" duration="602000" />
+      <workItem from="1572085208931" duration="2192000" />
+      <workItem from="1572414768175" duration="1986000" />
     </task>
     <servers />
   </component>

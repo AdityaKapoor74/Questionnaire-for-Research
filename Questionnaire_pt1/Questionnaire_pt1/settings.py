@@ -15,7 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -25,7 +25,7 @@ SECRET_KEY = 'cs6k9*0r6biitovqfjc+88e3oxr=0vd(#l(siu=w_f79mr#bb%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost','mighty-tor-88148.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
@@ -76,8 +76,16 @@ WSGI_APPLICATION = 'Questionnaire_pt1.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #SqLite
+        #'ENGINE': 'django.db.backends.sqlite3',
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        #Postgres
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME': 'questionnaire_1_db',
+        'USER': 'postgres',
+        'PASSWORD': 'Warmachine@42',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
