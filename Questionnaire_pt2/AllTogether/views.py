@@ -64,7 +64,7 @@ def show_stimuli_one_by_one(request):
         user_id = request.session['user_id']
     #What to do if the session expires?
     user = get_object_or_404(UserDetails, pk=user_id)
-    helper = Stimuli.objects.first().id
+    helper = Stimuli.objects.first()
     if request.method=='POST':
         num1 = random.randrange(2, 12, 1)
         num2 = random.randrange(2, 12, 1)

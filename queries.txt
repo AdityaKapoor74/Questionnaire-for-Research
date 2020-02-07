@@ -1,0 +1,67 @@
+
+Questionnaire 2 without color
+id | choice_1 | choice_2 | choice_3 | choice_4 | choice_5 | choice_corr_id | user_id_id | id | first_name  |   last_name   |              email               | gender |    city    |         country         
+----+----------+----------+----------+----------+----------+----------------+------------+----+-------------+---------------+----------------------------------+--------+------------+-------------------------
+  4 | f        | t        | f        | f        | f        |              1 |          6 |  6 | Ananya      | Iyer          | ananya.iyer_ug20@ashoka.edu.in   | Female | Mumbai     | India
+  5 | f        | t        | t        | t        | t        |              1 |          7 |  7 | Vini        | Garg          | garg.vini52@gmail.com            | Female | Mumbai     | India
+  7 | t        | t        | t        | f        | t        |              1 |          9 |  9 | Yash        | Bitla         | yashbitla1999@gmail.com          | Male   | Mumbai     | India
+  9 | t        | t        | f        | f        | t        |              1 |         12 | 12 | Siddhant    | Easwar        | sid@gmail.com                    | Male   | Mumbai     | India
+ 10 | t        | f        | f        | f        | f        |              1 |         13 | 13 | Shrishti    | Agrawal       | rally5341@gmail.com              | Female | Bangalore  | India
+ 11 | f        | t        | t        | t        | t        |              1 |         14 | 14 | Navin Kumar | Ravindra      | navink.nkr@gmail.com             | Male   | Burnaby    | Other part of the world
+ 12 | f        | t        | t        | t        | t        |              1 |         16 | 16 | Ananya      | Rao           | ananya.rao6080@gmail.com         | Female | London     | India
+ 13 | t        | f        | t        | t        | t        |              1 |         15 | 15 | Natasha     | Lopez         | natasha.lopez_ug20@ashoka.edu.in | Female | New Delhi  | India
+ 17 | f        | f        | t        | t        | t        |              1 |         20 | 20 | karan       | dhawan        | karandhawan333@gmail.com         | Male   | Mumbai     | India
+ 18 | t        | t        | f        | t        | t        |              1 |         21 | 21 | Karishma    | Kapoor        | kapoorkarishma009@gmail.com      | Female | Mumbai     | India
+ 19 | t        | t        | f        | t        | t        |              1 |         23 | 23 | Jia         | Sitlani       | jiasitlani1303@gmail.com         | Female | Mumbai     | India
+ 20 | f        | t        | f        | f        | t        |              1 |         22 | 22 | Nikhita     | Dhawan        | nikhita27@gmail.com              | Female | Mumbai     | India
+ 21 | f        | f        | t        | f        | t        |              1 |         24 | 24 | neena       | dhawan        | neenadhawan67@gmail.com          | Female | Mumbai     | India
+ 22 | f        | t        | t        | f        | t        |              1 |         26 | 26 | Shanaiya    | Dsouza        | shanaiya.dsouza0@gmail.com       | Female | Mumbai     | India
+ 23 | f        | f        | f        | f        | t        |              1 |         25 | 25 | suresh      | dhawan        | s.dhawan62@gmail.com             | Male   | Mumbai     | India
+ 24 | f        | t        | t        | f        | f        |              1 |         27 | 27 | Siddhanth   | Iyer          | iyer.siddhanth18@gmail.com       | Male   | MUMBAI     | India
+ 25 | t        | f        | t        | t        | t        |              1 |         28 | 28 | manish      | kapoor        | kapoormanish968@gmail.com        | Male   | Mumbai     | India
+ 26 | f        | t        | t        | t        | t        |              1 |         30 | 30 | Anjalina    | Deb           | anjalina.deb0309@gmail.com       | Female | Mumbai     | India
+ 27 | t        | f        | t        | f        | t        |              1 |         32 | 32 | Shruti      | Nair          | s.nairshruti@yahoo.in            | Female | MUMBAI     | India
+ 28 | f        | f        | f        | f        | t        |              1 |         33 | 33 | gaurav      | iyer          | gauravgi8cr7@gmail.com           | Male   | mumbai     | India
+ 29 | t        | t        | t        | t        | f        |              1 |         34 | 34 | Anirudh     | Madhavan      | anirudh.madhavan20@gmail.com     | Male   | Mumbai     | India
+ 32 | f        | f        | f        | t        | f        |              1 |         39 | 39 | Shrenik     | Golechha      | shrenikgolechha13@gmail.com      | Male   | Jaipur     | India
+ 33 | t        | t        | f        | t        | t        |              1 |         40 | 40 | Manasi      | Jadhav        | manasijadhav10308@gmail.com      | Female | Mumbai     | India
+ 34 | f        | t        | f        | f        | f        |              1 |         41 | 41 | Atharva     | Papnoi        | atharvapapnoi229@gmail.com       | Male   | Mumbai     | India
+ 35 | f        | f        | f        | f        | t        |              1 |         42 | 42 | Mihir       | Dharmadhikari | arkya.mihir@gmail.com            | Male   | Pune       | India
+ 36 | t        | t        | t        | t        | t        |              1 |         46 | 46 | Smeeta      | C             | smeedigh@gmail.com               | Female | Mumbai     | India
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

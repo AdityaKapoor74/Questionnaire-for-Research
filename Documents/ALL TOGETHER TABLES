@@ -1,0 +1,535 @@
+AllTogether_choice
+
+id |           sample1_A           |           sample2_A           |           sample3_A           |           sample4_A           |           sample5_A           |          sample6_A          |          sample7_A          |          sample8_A          |          sample9_A          |         sample10_A          | question_id 
+----+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-------------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-----------------------------+-------------
+  1 | images/Contrast00_fMnGfRo.png | images/Contrast01_vQEAtp0.png | images/Contrast02_zn6rIan.png | images/Contrast03_bBT4DBO.png | images/Contrast04_2giNWDH.png | images/Target00_anRCYlz.png | images/Target01_mpKO0qP.png | images/Target02_u4ik670.png | images/Target03_v19yMwX.png | images/Target04_tN7pEdC.png |           1
+(1 row)
+
+
+
+AllTogether_choicefeatures
+
+ id |      feature1_A       |      feature2_A       |      feature1_B       |      feature2_B       |      feature1_C       |      feature2_C       |      feature1_D       |      feature2_D       |      feature1_E       |      feature2_E       | question_rel_id 
+----+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------------+-----------------
+  1 | images/Feature1_a.png | images/Feature1_b.png | images/Feature2_a.png | images/Feature2_b.png | images/Feature3_a.png | images/Feature3_b.png | images/Feature4_a.png | images/Feature4_b.png | images/Feature5_a.png | images/Feature5_b.png |               1
+(1 row)
+
+
+
+AllTogether_question
+
+ id |                                                              question_text_for_real_test                                                               
+----+--------------------------------------------------------------------------------------------------------------------------------------------------------
+  1 | Categorize each stimulus shown below into category A or B based on what you feel is natural and intuitive. Please be consistent in how you categorize.
+(1 row)
+
+
+AllTogether_questionfeatures
+
+ id |                                            question_text                                            
+----+-----------------------------------------------------------------------------------------------------
+  1 | Which feature(s) did you use to categorize? Press the submit button after selecting the feature(s).
+(1 row)
+
+
+
+AllTogether_stimuli
+
+ id |           stimuli_1           |         stimuli_10          |          stimuli_2          |           stimuli_3           |          stimuli_4          |          stimuli_5          |           stimuli_6           |          stimuli_7          |           stimuli_8           |           stimuli_9           
+----+-------------------------------+-----------------------------+-----------------------------+-------------------------------+-----------------------------+-----------------------------+-------------------------------+-----------------------------+-------------------------------+-------------------------------
+  1 | images/Contrast00_zYAFXJo.png | images/Target04_5WOD0Ru.png | images/Target00_WzktqOs.png | images/Contrast01_dm0fiMd.png | images/Target01_dv31eaw.png | images/Target03_DuHNIde.png | images/Contrast04_zQBvGzK.png | images/Target02_eSpj2re.png | images/Contrast03_Q9ZYsOs.png | images/Contrast02_TDxtUlO.png
+(1 row)
+
+
+
+AllTogether_userdetails
+
+ id | first_name  |   last_name    |              email               | gender |     city      |         country         
+----+-------------+----------------+----------------------------------+--------+---------------+-------------------------
+  6 | Ananya      | Iyer           | ananya.iyer_ug20@ashoka.edu.in   | Female | Mumbai        | India
+  7 | Vini        | Garg           | garg.vini52@gmail.com            | Female | Mumbai        | India
+  9 | Yash        | Bitla          | yashbitla1999@gmail.com          | Male   | Mumbai        | India
+ 12 | Siddhant    | Easwar         | sid@gmail.com                    | Male   | Mumbai        | India
+ 13 | Shrishti    | Agrawal        | rally5341@gmail.com              | Female | Bangalore     | India
+ 14 | Navin Kumar | Ravindra       | navink.nkr@gmail.com             | Male   | Burnaby       | Other part of the world
+ 15 | Natasha     | Lopez          | natasha.lopez_ug20@ashoka.edu.in | Female | New Delhi     | India
+ 16 | Ananya      | Rao            | ananya.rao6080@gmail.com         | Female | London        | India
+ 20 | karan       | dhawan         | karandhawan333@gmail.com         | Male   | Mumbai        | India
+ 21 | Karishma    | Kapoor         | kapoorkarishma009@gmail.com      | Female | Mumbai        | India
+ 22 | Nikhita     | Dhawan         | nikhita27@gmail.com              | Female | Mumbai        | India
+ 23 | Jia         | Sitlani        | jiasitlani1303@gmail.com         | Female | Mumbai        | India
+ 24 | neena       | dhawan         | neenadhawan67@gmail.com          | Female | Mumbai        | India
+ 25 | suresh      | dhawan         | s.dhawan62@gmail.com             | Male   | Mumbai        | India
+ 26 | Shanaiya    | Dsouza         | shanaiya.dsouza0@gmail.com       | Female | Mumbai        | India
+ 27 | Siddhanth   | Iyer           | iyer.siddhanth18@gmail.com       | Male   | MUMBAI        | India
+ 28 | manish      | kapoor         | kapoormanish968@gmail.com        | Male   | Mumbai        | India
+ 30 | Anjalina    | Deb            | anjalina.deb0309@gmail.com       | Female | Mumbai        | India
+ 32 | Shruti      | Nair           | s.nairshruti@yahoo.in            | Female | MUMBAI        | India
+ 33 | gaurav      | iyer           | gauravgi8cr7@gmail.com           | Male   | mumbai        | India
+ 34 | Anirudh     | Madhavan       | anirudh.madhavan20@gmail.com     | Male   | Mumbai        | India
+ 39 | Shrenik     | Golechha       | shrenikgolechha13@gmail.com      | Male   | Jaipur        | India
+ 40 | Manasi      | Jadhav         | manasijadhav10308@gmail.com      | Female | Mumbai        | India
+ 41 | Atharva     | Papnoi         | atharvapapnoi229@gmail.com       | Male   | Mumbai        | India
+ 42 | Mihir       | Dharmadhikari  | arkya.mihir@gmail.com            | Male   | Pune          | India
+ 46 | Smeeta      | C              | smeedigh@gmail.com               | Female | Mumbai        | India
+ 47 | Nachiket    | Bhuta          | nachiketbhuta@gmail.com          | Male   | Mumbai        | India
+ 48 | Hetal       | Kuvadia        | hetalkvd@gmail.com               | Female | Mumbai        | India
+ 49 | Abhinav     | Pathak         | f20170937@goa.bits-pilani.ac.in  | Male   | Goa           | India
+ 50 | Alish       | Dipani         | alish.dipani@gmail.com           | Male   | Nagpur        | India
+ 52 | Gaurav      | Khandige       | gauravkhandige@gmail.com         | Male   | Kodagu        | India
+ 53 | Ayush       | Agrawal        | ayush.ag17@gmail.com             | Male   | South Goa     | India
+ 56 | Tanishq     | Nandan         | f20180195@goa.bits-pilani.ac.in  | Male   | Goa           | India
+ 58 | Akash       | Chaudhary      | akash.chaudhary1306@gmail.com    | Male   | South Goa     | India
+ 59 | Prakhar     | Verma          | vprakhar99@gmail.com             | Male   | Vadodara      | India
+ 60 | Swara       |  Muley         | muleys2909@gmail.com             | Female | Vadodara      | India
+ 61 | Abhinav     | Lalwani        | abhinav.lalwani@gmail.com        | Male   | Pune          | India
+ 62 | Yash        | Jain           | yashjain@nyu.edu                 | Male   | New York      | United States
+ 63 | Ajay        | Subramanian    | f20170371@goa.bits-pilani.ac.in  | Male   | Bangalore     | India
+ 64 | Vishwajeet  | Singh          | f20150599@goa.bits-pilani.ac.in  | Male   | Delhi         | India
+ 66 | Kathan      | Vasani         | kathanvasani1101@gmail.com       | Male   | Goa           | India
+ 67 | Atharv      | Chandratre     | atharvchandratre@gmail.com       | Male   | Pune          | India
+ 68 | Hariom      | Narang         | hariom2711@gmail.com             | Male   | Anand         | India
+ 69 | Nandinie    | Patwardhan     | nandiniepatwardhan@gmail.com     | Female | Mumbai        | India
+ 71 | Sharmistha  | Mookerjee      | mishtiemail@gmail.com            | Female | Mumbai        | India
+ 72 | Trisha      | Puri           | trishapuri03@gmail.com           | Female | Mumbai        | India
+ 73 | Shaswat     | Ghosh          | shash25rocks@gmail.com           | Male   | BENGALURU     | India
+ 74 | Neel        | Bhandari       | nsbrocks@gmail.com               | Male   | Pune          | India
+ 75 | aakanksha   | malhotra       | aakanke@gmail.com                | Female | Toronto       | Other part of the world
+ 76 | Harsh       | Bhimrajka      | f20170046@goa.bits-pilani.ac.in  | Male   | Goa           | India
+ 77 | Bhavya      | Saraf          | bhvsaraf536@gmail.com            | Male   | VASCO DA GAMA | India
+ 78 | Abhishek    | Mali           | abhishekmali24011999@gmail.com   | Male   | Indore        | India
+ 79 | John        | Neumann        | example@gmail.com                | Male   | Banglore      | India
+ 80 | Shamik      | Mitra Majumdar | f20180257@goa.bits-pilani.ac.in  | Male   | Bangalore     | India
+ 81 | Shreesh     | Kulkarni       | shreesh12@gmail.com              | Male   | Mumbai        | India
+ 82 | Prem        | Patel          | f20170353@goa.bits-pilani.ac.in  | Male   | Zuarinagar    | India
+ 83 | Simran      | Gandhi         | simrang.1999@gmail.com           | Female | Lucknow       | India
+ 84 | Sampreet    | Arthi          | f20180703@goa.bits-pilani.ac.in  | Male   | Hyderabad     | India
+ 85 | Nirzari     | Shah           | nirzarik.shah01@gmail.com        | Female | Ahmedabad     | India
+ 86 | SUMAN       | SAURABH        | saurabh.687@gmail.com            | Male   | MUMBAI        | India
+ 87 | Anon        | 1111           | youdontneedmyemail@gmail.com     | Male   | Goa           | India
+ 89 | Manisha     | Patra          | manisha.patra14@gmail.com        | Female | Mumbai        | India
+ 91 | Akshat      | Rao            | akshat.raocr7@gmail.com          | Male   | Pune          | India
+ 92 | Anany       | Jain           | f20170920@goa.bits-pilani.ac.in  | Male   | Lucknow       | India
+ 93 | Pranoppal   | Kalita         | pranoppal1006@gmail.com          | Male   | Surat         | India
+ 94 | Shivani     | Gupta          | shivanigupta.73sg@gmail.com      | Female | Pune          | India
+ 95 | Gurdain     | Madan          | gsmadan97@gmail.com              | Male   | Hyderabad     | India
+(67 rows)
+
+
+
+AllTogether_userdetails_question_attended
+
+ id  | userdetails_id | question_id 
+-----+----------------+-------------
+ 280 |             82 |           1
+ 133 |             40 |           1
+ 205 |             62 |           1
+  67 |             20 |           1
+ 137 |             41 |           1
+  71 |             21 |           1
+ 209 |             63 |           1
+ 284 |             83 |           1
+ 141 |             42 |           1
+  77 |             23 |           1
+  79 |             22 |           1
+  17 |              6 |           1
+ 213 |             64 |           1
+ 288 |             84 |           1
+  21 |              7 |           1
+  83 |             24 |           1
+ 148 |             46 |           1
+ 217 |             66 |           1
+ 152 |             47 |           1
+  29 |              9 |           1
+  90 |             26 |           1
+  92 |             25 |           1
+ 294 |             86 |           1
+ 156 |             48 |           1
+  95 |             27 |           1
+  37 |             12 |           1
+ 224 |             68 |           1
+ 225 |             67 |           1
+  41 |             13 |           1
+  99 |             28 |           1
+ 160 |             49 |           1
+ 296 |             85 |           1
+  45 |             14 |           1
+ 103 |             30 |           1
+ 164 |             50 |           1
+ 300 |             87 |           1
+  52 |             16 |           1
+  53 |             15 |           1
+ 108 |             32 |           1
+ 168 |             52 |           1
+ 112 |             33 |           1
+ 233 |             69 |           1
+ 172 |             53 |           1
+ 116 |             34 |           1
+ 308 |             89 |           1
+ 241 |             71 |           1
+ 182 |             56 |           1
+ 312 |             91 |           1
+ 245 |             72 |           1
+ 129 |             39 |           1
+ 316 |             92 |           1
+ 249 |             73 |           1
+ 189 |             58 |           1
+ 193 |             59 |           1
+ 253 |             74 |           1
+ 320 |             93 |           1
+ 197 |             60 |           1
+ 257 |             75 |           1
+ 201 |             61 |           1
+ 324 |             94 |           1
+ 261 |             76 |           1
+ 328 |             95 |           1
+ 265 |             78 |           1
+ 272 |             80 |           1
+ 277 |             81 |           1
+(65 rows)
+
+
+
+
+AllTogether_userresponses
+
+ id  | choice_1 | choice_2 | choice_3 | choice_4 | choice_5 | choice_6 | choice_7 | choice_8 | choice_9 | choice_10 | iteration | choice_corr_id | user_id_id 
+-----+----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+-----------+----------------+------------
+  13 | f        | t        | t        | f        | t        | t        | f        | f        | f        | f         |         1 |              1 |          6
+  14 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         2 |              1 |          6
+  15 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         3 |              1 |          6
+  16 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         4 |              1 |          6
+  17 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         1 |              1 |          7
+  18 | f        | t        | f        | f        | f        | t        | f        | t        | t        | t         |         2 |              1 |          7
+  19 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         3 |              1 |          7
+  20 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         4 |              1 |          7
+  25 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |          9
+  26 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         2 |              1 |          9
+  27 | f        | t        | f        | f        | f        | t        | f        | t        | t        | t         |         3 |              1 |          9
+  28 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         4 |              1 |          9
+  32 | f        | t        | t        | t        | f        | f        | t        | t        | f        | f         |         1 |              1 |         12
+  33 | f        | t        | f        | f        | t        | t        | t        | f        | t        | f         |         2 |              1 |         12
+  34 | f        | f        | t        | f        | f        | t        | t        | f        | t        | t         |         3 |              1 |         12
+  35 | t        | f        | t        | f        | t        | f        | t        | f        | t        | f         |         4 |              1 |         12
+  36 | t        | t        | f        | t        | f        | f        | f        | f        | f        | t         |         1 |              1 |         13
+  37 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         2 |              1 |         13
+  38 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         3 |              1 |         13
+  39 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         4 |              1 |         13
+  40 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         1 |              1 |         14
+  41 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         14
+  42 | t        | f        | t        | f        | t        | f        | t        | f        | f        | f         |         3 |              1 |         14
+  43 | t        | f        | f        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         14
+  44 | t        | t        | t        | t        | t        | t        | t        | t        | t        | t         |         1 |              1 |         15
+  45 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         16
+  46 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         2 |              1 |         16
+  47 | f        | t        | t        | f        | t        | t        | f        | f        | t        | f         |         2 |              1 |         15
+  48 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         3 |              1 |         16
+  49 | t        | f        | t        | f        | t        | f        | t        | f        | t        | t         |         3 |              1 |         15
+  50 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         16
+  51 | f        | t        | f        | t        | f        | f        | f        | t        | f        | t         |         4 |              1 |         15
+  62 | t        | t        | f        | f        | t        | f        | f        | f        | f        | f         |         1 |              1 |         20
+  63 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         2 |              1 |         20
+  64 | f        | f        | t        | f        | f        | t        | t        | f        | t        | t         |         3 |              1 |         20
+  65 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         4 |              1 |         20
+  66 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         21
+  67 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         2 |              1 |         21
+  68 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         21
+  69 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         4 |              1 |         21
+  70 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         22
+  71 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         1 |              1 |         23
+  72 | f        | f        | f        | f        | t        | t        | t        | t        | t        | f         |         2 |              1 |         23
+  73 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         23
+  74 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         23
+  75 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         22
+  76 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         22
+  77 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         4 |              1 |         22
+  78 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         24
+  79 | f        | f        | f        | t        | f        | f        | t        | f        | f        | f         |         2 |              1 |         24
+  80 | t        | f        | t        | f        | t        | f        | f        | f        | f        | f         |         3 |              1 |         24
+  81 | f        | f        | f        | t        | f        | f        | t        | f        | f        | f         |         4 |              1 |         24
+  82 | f        | f        | f        | t        | f        | t        | f        | f        | f        | f         |         1 |              1 |         25
+  83 | f        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         26
+  84 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         2 |              1 |         25
+  85 | f        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         26
+  86 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         3 |              1 |         25
+  87 | f        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         26
+  88 | f        | t        | t        | f        | t        | f        | f        | f        | f        | f         |         4 |              1 |         26
+  89 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         1 |              1 |         27
+  90 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         4 |              1 |         25
+  91 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         2 |              1 |         27
+  92 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         3 |              1 |         27
+  93 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         4 |              1 |         27
+  94 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         28
+  95 | t        | f        | t        | f        | t        | f        | f        | f        | f        | f         |         2 |              1 |         28
+  96 | t        | f        | t        | f        | f        | f        | f        | f        | f        | f         |         3 |              1 |         28
+  97 | t        | f        | f        | f        | f        | f        | f        | f        | f        | f         |         4 |              1 |         28
+  98 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         30
+  99 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         30
+ 100 | f        | t        | f        | f        | f        | t        | f        | t        | t        | t         |         3 |              1 |         30
+ 101 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         4 |              1 |         30
+ 102 | t        | f        | f        | t        | f        | f        | f        | t        | f        | f         |         1 |              1 |         32
+ 103 | t        | f        | f        | t        | t        | t        | f        | t        | f        | t         |         2 |              1 |         32
+ 104 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         3 |              1 |         32
+ 105 | f        | f        | f        | f        | t        | t        | t        | t        | f        | t         |         1 |              1 |         33
+ 106 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         2 |              1 |         33
+ 107 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         3 |              1 |         33
+ 108 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         4 |              1 |         33
+ 109 | f        | t        | f        | f        | f        | t        | f        | t        | t        | t         |         1 |              1 |         34
+ 110 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         34
+ 111 | f        | f        | f        | f        | t        | t        | t        | t        | t        | f         |         3 |              1 |         34
+ 112 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         4 |              1 |         34
+ 122 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         39
+ 123 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         39
+ 124 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         39
+ 125 | f        | f        | f        | f        | t        | t        | t        | t        | t        | f         |         1 |              1 |         40
+ 126 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         40
+ 127 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         3 |              1 |         40
+ 128 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         4 |              1 |         40
+ 129 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         1 |              1 |         41
+ 130 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         2 |              1 |         41
+ 131 | f        | f        | t        | f        | f        | t        | f        | f        | f        | t         |         3 |              1 |         41
+ 132 | f        | f        | f        | f        | f        | t        | t        | t        | t        | t         |         4 |              1 |         41
+ 133 | f        | f        | f        | f        | f        | t        | t        | t        | t        | t         |         4 |              1 |         41
+ 134 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         42
+ 135 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         42
+ 136 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         42
+ 137 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         4 |              1 |         42
+ 141 | t        | t        | t        | f        | f        | f        | f        | t        | t        | t         |         1 |              1 |         46
+ 142 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         46
+ 143 | f        | f        | f        | f        | f        | t        | t        | t        | t        | t         |         3 |              1 |         46
+ 144 | t        | t        | f        | f        | f        | f        | f        | f        | t        | t         |         4 |              1 |         46
+ 145 | f        | t        | f        | f        | f        | f        | f        | f        | f        | f         |         1 |              1 |         47
+ 146 | f        | t        | f        | f        | f        | f        | f        | f        | f        | f         |         2 |              1 |         47
+ 147 | f        | t        | f        | f        | f        | f        | f        | f        | f        | f         |         3 |              1 |         47
+ 148 | f        | t        | f        | f        | f        | f        | f        | f        | f        | f         |         4 |              1 |         47
+ 149 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         48
+ 150 | f        | t        | f        | f        | f        | t        | f        | t        | t        | t         |         2 |              1 |         48
+ 151 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         3 |              1 |         48
+ 152 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         4 |              1 |         48
+ 153 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         2 |              1 |         49
+ 154 | f        | f        | t        | f        | f        | t        | t        | f        | t        | t         |         3 |              1 |         49
+ 155 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         4 |              1 |         49
+ 156 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         50
+ 157 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         50
+ 158 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         50
+ 159 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         4 |              1 |         50
+ 160 | f        | f        | t        | t        | f        | t        | f        | t        | f        | t         |         1 |              1 |         52
+ 161 | t        | f        | f        | t        | f        | t        | f        | f        | t        | t         |         2 |              1 |         52
+ 162 | t        | t        | f        | t        | f        | f        | t        | t        | f        | t         |         3 |              1 |         52
+ 163 | t        | f        | t        | f        | f        | f        | f        | t        | t        | t         |         4 |              1 |         52
+ 164 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         1 |              1 |         53
+ 165 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         2 |              1 |         53
+ 166 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         3 |              1 |         53
+ 167 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         4 |              1 |         53
+ 173 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         1 |              1 |         56
+ 174 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         56
+ 175 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         3 |              1 |         56
+ 176 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         4 |              1 |         56
+ 180 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         58
+ 181 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         58
+ 182 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         58
+ 183 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         58
+ 184 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         59
+ 185 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         2 |              1 |         59
+ 186 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         59
+ 187 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         4 |              1 |         59
+ 188 | t        | f        | t        | f        | f        | f        | t        | f        | t        | f         |         1 |              1 |         60
+ 189 | t        | f        | f        | f        | f        | f        | t        | f        | t        | f         |         2 |              1 |         60
+ 190 | t        | f        | f        | t        | f        | f        | t        | f        | t        | f         |         3 |              1 |         60
+ 191 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         61
+ 192 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         61
+ 193 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         61
+ 194 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         61
+ 195 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         62
+ 196 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         62
+ 197 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         62
+ 198 | f        | f        | t        | f        | f        | t        | t        | f        | t        | t         |         4 |              1 |         62
+ 199 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         63
+ 200 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         63
+ 201 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         63
+ 202 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         63
+ 203 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         64
+ 204 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         64
+ 205 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         64
+ 206 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         64
+ 207 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         66
+ 208 | f        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         2 |              1 |         66
+ 209 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         3 |              1 |         66
+ 210 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         4 |              1 |         66
+ 211 | t        | f        | t        | t        | t        | f        | f        | f        | t        | f         |         1 |              1 |         67
+ 212 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         68
+ 213 | f        | f        | t        | f        | f        | t        | t        | f        | t        | f         |         2 |              1 |         67
+ 214 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         68
+ 215 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         68
+ 216 | f        | f        | t        | t        | f        | f        | t        | t        | t        | t         |         3 |              1 |         67
+ 217 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         68
+ 218 | t        | f        | t        | f        | t        | f        | f        | f        | t        | t         |         4 |              1 |         67
+ 222 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         69
+ 223 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         69
+ 224 | f        | f        | f        | f        | f        | t        | f        | f        | f        | f         |         3 |              1 |         69
+ 225 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         69
+ 228 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         71
+ 230 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         2 |              1 |         71
+ 232 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         3 |              1 |         71
+ 233 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         4 |              1 |         71
+ 234 | f        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         72
+ 235 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         72
+ 236 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         3 |              1 |         72
+ 237 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         72
+ 238 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         73
+ 239 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         73
+ 240 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         73
+ 241 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         73
+ 242 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         74
+ 243 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         74
+ 244 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         74
+ 245 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         74
+ 246 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         1 |              1 |         75
+ 247 | t        | f        | t        | t        | f        | f        | f        | f        | f        | t         |         2 |              1 |         75
+ 248 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         75
+ 249 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         75
+ 250 | t        | t        | t        | f        | f        | f        | f        | f        | t        | t         |         1 |              1 |         76
+ 251 | t        | t        | t        | f        | f        | f        | f        | f        | t        | t         |         2 |              1 |         76
+ 252 | t        | t        | f        | f        | f        | f        | f        | f        | t        | t         |         3 |              1 |         76
+ 253 | t        | t        | t        | f        | f        | f        | f        | f        | t        | t         |         4 |              1 |         76
+ 254 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         1 |              1 |         78
+ 255 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         78
+ 256 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         3 |              1 |         78
+ 257 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         78
+ 258 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         79
+ 259 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         2 |              1 |         79
+ 260 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         3 |              1 |         79
+ 261 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         1 |              1 |         80
+ 262 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         2 |              1 |         80
+ 263 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         3 |              1 |         80
+ 264 | f        | f        | f        | f        | t        | t        | t        | t        | t        | f         |         4 |              1 |         80
+ 265 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         81
+ 266 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         2 |              1 |         81
+ 267 | f        | f        | f        | t        | f        | t        | t        | t        | f        | t         |         3 |              1 |         81
+ 268 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         4 |              1 |         81
+ 269 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         82
+ 270 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         3 |              1 |         82
+ 271 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         4 |              1 |         82
+ 272 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         1 |              1 |         83
+ 273 | t        | f        | f        | f        | f        | f        | t        | t        | t        | t         |         2 |              1 |         83
+ 274 | t        | t        | f        | f        | f        | t        | t        | f        | t        | f         |         3 |              1 |         83
+ 275 | t        | f        | t        | f        | f        | t        | t        | t        | f        | f         |         4 |              1 |         83
+ 276 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         84
+ 277 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         84
+ 278 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         84
+ 279 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         4 |              1 |         84
+ 280 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         86
+ 281 | f        | f        | f        | t        | t        | f        | f        | f        | t        | t         |         1 |              1 |         85
+ 282 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         2 |              1 |         86
+ 283 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         3 |              1 |         86
+ 284 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         85
+ 285 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         4 |              1 |         86
+ 286 | t        | t        | t        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         85
+ 287 | t        | t        | t        | t        | f        | f        | f        | t        | f        | f         |         4 |              1 |         85
+ 288 | t        | f        | t        | t        | f        | f        | f        | f        | f        | f         |         1 |              1 |         87
+ 289 | t        | f        | t        | t        | f        | f        | f        | f        | f        | f         |         2 |              1 |         87
+ 290 | t        | f        | t        | t        | f        | f        | f        | f        | f        | f         |         3 |              1 |         87
+ 291 | t        | f        | t        | t        | f        | f        | f        | f        | f        | f         |         4 |              1 |         87
+ 296 | t        | t        | f        | f        | t        | f        | f        | f        | f        | f         |         1 |              1 |         89
+ 297 | t        | t        | f        | f        | t        | f        | f        | f        | f        | f         |         2 |              1 |         89
+ 298 | t        | t        | f        | f        | t        | f        | f        | f        | f        | f         |         3 |              1 |         89
+ 299 | t        | t        | f        | f        | t        | f        | f        | f        | f        | f         |         4 |              1 |         89
+ 300 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         91
+ 301 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         2 |              1 |         91
+ 302 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         3 |              1 |         91
+ 303 | t        | t        | t        | t        | f        | f        | f        | f        | f        | t         |         4 |              1 |         91
+ 304 | t        | t        | t        | t        | f        | f        | f        | f        | f        | f         |         1 |              1 |         92
+ 305 | t        | t        | t        | t        | f        | f        | f        | f        | f        | f         |         2 |              1 |         92
+ 306 | t        | t        | t        | t        | f        | f        | f        | f        | f        | f         |         3 |              1 |         92
+ 307 | t        | t        | t        | t        | f        | f        | f        | f        | f        | f         |         4 |              1 |         92
+ 308 | t        | t        | f        | f        | f        | f        | t        | f        | f        | f         |         1 |              1 |         93
+ 309 | f        | f        | t        | f        | f        | f        | t        | t        | f        | f         |         2 |              1 |         93
+ 310 | f        | f        | t        | f        | f        | f        | f        | f        | t        | f         |         3 |              1 |         93
+ 311 | f        | f        | t        | f        | f        | f        | f        | t        | f        | f         |         4 |              1 |         93
+ 312 | t        | t        | f        | t        | t        | f        | f        | f        | f        | f         |         1 |              1 |         94
+ 313 | t        | t        | f        | t        | t        | f        | f        | f        | f        | f         |         2 |              1 |         94
+ 314 | t        | t        | f        | t        | t        | f        | f        | f        | f        | f         |         3 |              1 |         94
+ 315 | t        | t        | t        | f        | t        | f        | f        | f        | t        | f         |         1 |              1 |         95
+ 316 | f        | t        | t        | t        | t        | t        | f        | f        | f        | f         |         2 |              1 |         95
+ 317 | t        | t        | f        | t        | t        | f        | f        | t        | f        | f         |         3 |              1 |         95
+ 318 | t        | f        | t        | t        | t        | f        | t        | f        | f        | f         |         4 |              1 |         95
+(258 rows)
+
+
+
+
+AllTogether_userresponsesforfeatures
+
+ id | choice_1 | choice_2 | choice_3 | choice_4 | choice_5 | choice_corr_id | user_id_id 
+----+----------+----------+----------+----------+----------+----------------+------------
+  4 | f        | t        | f        | f        | f        |              1 |          6
+  5 | f        | t        | t        | t        | t        |              1 |          7
+  7 | t        | t        | t        | f        | t        |              1 |          9
+  9 | t        | t        | f        | f        | t        |              1 |         12
+ 10 | t        | f        | f        | f        | f        |              1 |         13
+ 11 | f        | t        | t        | t        | t        |              1 |         14
+ 12 | f        | t        | t        | t        | t        |              1 |         16
+ 13 | t        | f        | t        | t        | t        |              1 |         15
+ 17 | f        | f        | t        | t        | t        |              1 |         20
+ 18 | t        | t        | f        | t        | t        |              1 |         21
+ 19 | t        | t        | f        | t        | t        |              1 |         23
+ 20 | f        | t        | f        | f        | t        |              1 |         22
+ 21 | f        | f        | t        | f        | t        |              1 |         24
+ 22 | f        | t        | t        | f        | t        |              1 |         26
+ 23 | f        | f        | f        | f        | t        |              1 |         25
+ 24 | f        | t        | t        | f        | f        |              1 |         27
+ 25 | t        | f        | t        | t        | t        |              1 |         28
+ 26 | f        | t        | t        | t        | t        |              1 |         30
+ 27 | t        | f        | t        | f        | t        |              1 |         32
+ 28 | f        | f        | f        | f        | t        |              1 |         33
+ 29 | t        | t        | t        | t        | f        |              1 |         34
+ 32 | f        | f        | f        | t        | f        |              1 |         39
+ 33 | t        | t        | f        | t        | t        |              1 |         40
+ 34 | f        | t        | f        | f        | f        |              1 |         41
+ 35 | f        | f        | f        | f        | t        |              1 |         42
+ 36 | t        | t        | t        | t        | t        |              1 |         46
+ 37 | f        | f        | f        | f        | t        |              1 |         47
+ 38 | t        | f        | t        | t        | t        |              1 |         48
+ 39 | f        | t        | t        | t        | f        |              1 |         49
+ 40 | f        | f        | f        | f        | t        |              1 |         50
+ 41 | t        | t        | t        | t        | t        |              1 |         52
+ 42 | f        | f        | t        | f        | f        |              1 |         53
+ 44 | t        | t        | t        | t        | f        |              1 |         56
+ 45 | t        | f        | f        | f        | t        |              1 |         58
+ 46 | f        | f        | f        | f        | t        |              1 |         59
+ 47 | f        | t        | f        | t        | t        |              1 |         60
+ 48 | f        | t        | t        | t        | f        |              1 |         61
+ 49 | f        | f        | f        | t        | t        |              1 |         62
+ 50 | t        | t        | t        | f        | f        |              1 |         63
+ 51 | f        | f        | f        | f        | t        |              1 |         64
+ 52 | f        | t        | f        | t        | t        |              1 |         66
+ 53 | f        | f        | f        | f        | t        |              1 |         68
+ 54 | t        | t        | t        | f        | t        |              1 |         67
+ 55 | f        | f        | f        | t        | f        |              1 |         69
+ 57 | f        | t        | f        | t        | f        |              1 |         71
+ 58 | f        | f        | f        | t        | f        |              1 |         72
+ 59 | t        | f        | t        | t        | f        |              1 |         73
+ 60 | f        | t        | f        | f        | f        |              1 |         74
+ 61 | t        | f        | t        | t        | t        |              1 |         75
+ 62 | t        | t        | t        | t        | t        |              1 |         76
+ 63 | f        | f        | f        | t        | f        |              1 |         78
+ 64 | t        | f        | f        | f        | f        |              1 |         80
+ 65 | t        | t        | f        | f        | t        |              1 |         81
+ 66 | f        | f        | f        | t        | f        |              1 |         82
+ 67 | f        | t        | f        | f        | f        |              1 |         83
+ 68 | t        | t        | t        | t        | t        |              1 |         84
+ 69 | f        | f        | f        | f        | t        |              1 |         86
+ 70 | t        | t        | t        | t        | t        |              1 |         85
+ 71 | t        | t        | t        | t        | t        |              1 |         85
+ 72 | t        | t        | t        | t        | t        |              1 |         85
+ 73 | t        | f        | t        | f        | f        |              1 |         87
+ 74 | f        | f        | f        | t        | t        |              1 |         89
+ 75 | t        | f        | t        | t        | t        |              1 |         91
+ 76 | t        | f        | t        | t        | f        |              1 |         92
+ 77 | t        | t        | f        | f        | f        |              1 |         93
+ 78 | f        | f        | f        | f        | t        |              1 |         94
+ 79 | f        | t        | t        | t        | t        |              1 |         95
+(67 rows)
+
+
+

@@ -1,0 +1,173 @@
+select * from "AllTogether_userdetails" as a, "AllTogether_userresponsesforfeatures" as b where a.id=b.user_id_id;
+
+QUESTIONNAIRE_PT2
+
+ id | first_name  |   last_name    |              email               | gender |    city    |         country         | id | choice_1 | choice_2 | choice_3 | choice_4 | choice_5 | choice_corr_id | user_id
+_id 
+----+-------------+----------------+----------------------------------+--------+------------+-------------------------+----+----------+----------+----------+----------+----------+----------------+--------
+----
+  6 | Ananya      | Iyer           | ananya.iyer_ug20@ashoka.edu.in   | Female | Mumbai     | India                   |  4 | f        | t        | f        | f        | f        |              1 |        
+  6
+  7 | Vini        | Garg           | garg.vini52@gmail.com            | Female | Mumbai     | India                   |  5 | f        | t        | t        | t        | t        |              1 |        
+  7
+  9 | Yash        | Bitla          | yashbitla1999@gmail.com          | Male   | Mumbai     | India                   |  7 | t        | t        | t        | f        | t        |              1 |        
+  9
+ 12 | Siddhant    | Easwar         | sid@gmail.com                    | Male   | Mumbai     | India                   |  9 | t        | t        | f        | f        | t        |              1 |        
+ 12
+ 13 | Shrishti    | Agrawal        | rally5341@gmail.com              | Female | Bangalore  | India                   | 10 | t        | f        | f        | f        | f        |              1 |        
+ 13
+ 14 | Navin Kumar | Ravindra       | navink.nkr@gmail.com             | Male   | Burnaby    | Other part of the world | 11 | f        | t        | t        | t        | t        |              1 |        
+ 14
+ 15 | Natasha     | Lopez          | natasha.lopez_ug20@ashoka.edu.in | Female | New Delhi  | India                   | 13 | t        | f        | t        | t        | t        |              1 |        
+ 15
+ 16 | Ananya      | Rao            | ananya.rao6080@gmail.com         | Female | London     | India                   | 12 | f        | t        | t        | t        | t        |              1 |        
+ 16
+ 20 | karan       | dhawan         | karandhawan333@gmail.com         | Male   | Mumbai     | India                   | 17 | f        | f        | t        | t        | t        |              1 |        
+ 20
+ 21 | Karishma    | Kapoor         | kapoorkarishma009@gmail.com      | Female | Mumbai     | India                   | 18 | t        | t        | f        | t        | t        |              1 |        
+ 21
+ 22 | Nikhita     | Dhawan         | nikhita27@gmail.com              | Female | Mumbai     | India                   | 20 | f        | t        | f        | f        | t        |              1 |        
+ 22
+ 23 | Jia         | Sitlani        | jiasitlani1303@gmail.com         | Female | Mumbai     | India                   | 19 | t        | t        | f        | t        | t        |              1 |        
+ 23
+ 24 | neena       | dhawan         | neenadhawan67@gmail.com          | Female | Mumbai     | India                   | 21 | f        | f        | t        | f        | t        |              1 |        
+ 24
+ 25 | suresh      | dhawan         | s.dhawan62@gmail.com             | Male   | Mumbai     | India                   | 23 | f        | f        | f        | f        | t        |              1 |        
+ 25
+ 26 | Shanaiya    | Dsouza         | shanaiya.dsouza0@gmail.com       | Female | Mumbai     | India                   | 22 | f        | t        | t        | f        | t        |              1 |        
+ 26
+ 27 | Siddhanth   | Iyer           | iyer.siddhanth18@gmail.com       | Male   | MUMBAI     | India                   | 24 | f        | t        | t        | f        | f        |              1 |        
+ 27
+ 28 | manish      | kapoor         | kapoormanish968@gmail.com        | Male   | Mumbai     | India                   | 25 | t        | f        | t        | t        | t        |              1 |        
+ 28
+ 30 | Anjalina    | Deb            | anjalina.deb0309@gmail.com       | Female | Mumbai     | India                   | 26 | f        | t        | t        | t        | t        |              1 |        
+ 30
+ 32 | Shruti      | Nair           | s.nairshruti@yahoo.in            | Female | MUMBAI     | India                   | 27 | t        | f        | t        | f        | t        |              1 |        
+ 32
+ 33 | gaurav      | iyer           | gauravgi8cr7@gmail.com           | Male   | mumbai     | India                   | 28 | f        | f        | f        | f        | t        |              1 |        
+ 33
+ 34 | Anirudh     | Madhavan       | anirudh.madhavan20@gmail.com     | Male   | Mumbai     | India                   | 29 | t        | t        | t        | t        | f        |              1 |        
+ 34
+ 39 | Shrenik     | Golechha       | shrenikgolechha13@gmail.com      | Male   | Jaipur     | India                   | 32 | f        | f        | f        | t        | f        |              1 |        
+ 39
+ 40 | Manasi      | Jadhav         | manasijadhav10308@gmail.com      | Female | Mumbai     | India                   | 33 | t        | t        | f        | t        | t        |              1 |        
+ 40
+ 41 | Atharva     | Papnoi         | atharvapapnoi229@gmail.com       | Male   | Mumbai     | India                   | 34 | f        | t        | f        | f        | f        |              1 |        
+ 41
+ 42 | Mihir       | Dharmadhikari  | arkya.mihir@gmail.com            | Male   | Pune       | India                   | 35 | f        | f        | f        | f        | t        |              1 |        
+:
+46 | Smeeta      | C              | smeedigh@gmail.com               | Female | Mumbai     | India                   | 36 | t        | t        | t        | t        | t        |              1 |        
+ 46
+ 47 | Nachiket    | Bhuta          | nachiketbhuta@gmail.com          | Male   | Mumbai     | India                   | 37 | f        | f        | f        | f        | t        |              1 |        
+ 47
+ 48 | Hetal       | Kuvadia        | hetalkvd@gmail.com               | Female | Mumbai     | India                   | 38 | t        | f        | t        | t        | t        |              1 |        
+ 48
+ 49 | Abhinav     | Pathak         | f20170937@goa.bits-pilani.ac.in  | Male   | Goa        | India                   | 39 | f        | t        | t        | t        | f        |              1 |        
+ 49
+ 50 | Alish       | Dipani         | alish.dipani@gmail.com           | Male   | Nagpur     | India                   | 40 | f        | f        | f        | f        | t        |              1 |        
+ 50
+ 52 | Gaurav      | Khandige       | gauravkhandige@gmail.com         | Male   | Kodagu     | India                   | 41 | t        | t        | t        | t        | t        |              1 |        
+ 52
+ 53 | Ayush       | Agrawal        | ayush.ag17@gmail.com             | Male   | South Goa  | India                   | 42 | f        | f        | t        | f        | f        |              1 |        
+ 53
+ 56 | Tanishq     | Nandan         | f20180195@goa.bits-pilani.ac.in  | Male   | Goa        | India                   | 44 | t        | t        | t        | t        | f        |              1 |        
+ 56
+ 58 | Akash       | Chaudhary      | akash.chaudhary1306@gmail.com    | Male   | South Goa  | India                   | 45 | t        | f        | f        | f        | t        |              1 |        
+ 58
+ 59 | Prakhar     | Verma          | vprakhar99@gmail.com             | Male   | Vadodara   | India                   | 46 | f        | f        | f        | f        | t        |              1 |        
+ 59
+ 60 | Swara       |  Muley         | muleys2909@gmail.com             | Female | Vadodara   | India                   | 47 | f        | t        | f        | t        | t        |              1 |        
+ 60
+ 61 | Abhinav     | Lalwani        | abhinav.lalwani@gmail.com        | Male   | Pune       | India                   | 48 | f        | t        | t        | t        | f        |              1 |         61
+ 62 | Yash        | Jain           | yashjain@nyu.edu                 | Male   | New York   | United States           | 49 | f        | f        | f        | t        | t        |              1 |         62
+ 63 | Ajay        | Subramanian    | f20170371@goa.bits-pilani.ac.in  | Male   | Bangalore  | India                   | 50 | t        | t        | t        | f        | f        |              1 |         63
+ 64 | Vishwajeet  | Singh          | f20150599@goa.bits-pilani.ac.in  | Male   | Delhi      | India                   | 51 | f        | f        | f        | f        | t        |              1 |         64
+ 66 | Kathan      | Vasani         | kathanvasani1101@gmail.com       | Male   | Goa        | India                   | 52 | f        | t        | f        | t        | t        |              1 |         66
+ 67 | Atharv      | Chandratre     | atharvchandratre@gmail.com       | Male   | Pune       | India                   | 54 | t        | t        | t        | f        | t        |              1 |         67
+ 68 | Hariom      | Narang         | hariom2711@gmail.com             | Male   | Anand      | India                   | 53 | f        | f        | f        | f        | t        |              1 |         68
+ 69 | Nandinie    | Patwardhan     | nandiniepatwardhan@gmail.com     | Female | Mumbai     | India                   | 55 | f        | f        | f        | t        | f        |              1 |         69
+ 71 | Sharmistha  | Mookerjee      | mishtiemail@gmail.com            | Female | Mumbai     | India                   | 57 | f        | t        | f        | t        | f        |              1 |         71
+ 72 | Trisha      | Puri           | trishapuri03@gmail.com           | Female | Mumbai     | India                   | 58 | f        | f        | f        | t        | f        |              1 |         72
+ 73 | Shaswat     | Ghosh          | shash25rocks@gmail.com           | Male   | BENGALURU  | India                   | 59 | t        | f        | t        | t        | f        |              1 |         73
+:
+74 | Neel        | Bhandari       | nsbrocks@gmail.com               | Male   | Pune       | India                   | 60 | f        | t        | f        | f        | f        |              1 |         74
+ 75 | aakanksha   | malhotra       | aakanke@gmail.com                | Female | Toronto    | Other part of the world | 61 | t        | f        | t        | t        | t        |              1 |         75
+ 76 | Harsh       | Bhimrajka      | f20170046@goa.bits-pilani.ac.in  | Male   | Goa        | India                   | 62 | t        | t        | t        | t        | t        |              1 |         76
+ 78 | Abhishek    | Mali           | abhishekmali24011999@gmail.com   | Male   | Indore     | India                   | 63 | f        | f        | f        | t        | f        |              1 |         78
+ 80 | Shamik      | Mitra Majumdar | f20180257@goa.bits-pilani.ac.in  | Male   | Bangalore  | India                   | 64 | t        | f        | f        | f        | f        |              1 |         80
+ 81 | Shreesh     | Kulkarni       | shreesh12@gmail.com              | Male   | Mumbai     | India                   | 65 | t        | t        | f        | f        | t        |              1 |         81
+ 82 | Prem        | Patel          | f20170353@goa.bits-pilani.ac.in  | Male   | Zuarinagar | India                   | 66 | f        | f        | f        | t        | f        |              1 |         82
+ 83 | Simran      | Gandhi         | simrang.1999@gmail.com           | Female | Lucknow    | India                   | 67 | f        | t        | f        | f        | f        |              1 |         83
+ 84 | Sampreet    | Arthi          | f20180703@goa.bits-pilani.ac.in  | Male   | Hyderabad  | India                   | 68 | t        | t        | t        | t        | t        |              1 |         84
+ 85 | Nirzari     | Shah           | nirzarik.shah01@gmail.com        | Female | Ahmedabad  | India                   | 72 | t        | t        | t        | t        | t        |              1 |         85
+ 85 | Nirzari     | Shah           | nirzarik.shah01@gmail.com        | Female | Ahmedabad  | India                   | 71 | t        | t        | t        | t        | t        |              1 |         85
+ 85 | Nirzari     | Shah           | nirzarik.shah01@gmail.com        | Female | Ahmedabad  | India                   | 70 | t        | t        | t        | t        | t        |              1 |         85
+ 86 | SUMAN       | SAURABH        | saurabh.687@gmail.com            | Male   | MUMBAI     | India                   | 69 | f        | f        | f        | f        | t        |              1 |         86
+ 87 | Anon        | 1111           | youdontneedmyemail@gmail.com     | Male   | Goa        | India                   | 73 | t        | f        | t        | f        | f        |              1 |         87
+
+
+QUESTIONNAIRE_PT1
+
+ id |  first_name   |   last_name   |              email              | gender |     city      |  country  | id | choice_1 | choice_2 | choice_3 | choice_4 | choice_5 | choice_corr_id | user_id_id 
+----+---------------+---------------+---------------------------------+--------+---------------+-----------+----+----------+----------+----------+----------+----------+----------------+------------
+  3 | Kasturi       | Koli          | kolikasturi@gmail.com           | Female | Bangalore     | India     |  2 | t        | t        | f        | f        | t        |              1 |          3
+  4 | Harnoor       | Dhingra       | f20170092@goa.bits-pilani.ac.in | Male   | Jalandar      | India     |  3 | f        | f        | f        | f        | t        |              1 |          4
+  6 | Ojit          | Mehta         | f20170372@goa.bits-pilani.ac.in | Male   | Mumbai        | India     |  5 | f        | t        | f        | f        | t        |              1 |          6
+  7 | Riddhesh      | Sawant        | ridswnt10@gmail.com             | Male   | Nashik        | India     |  6 | f        | t        | f        | f        | t        |              1 |          7
+  8 | Anagha        | Iyer          | anaghaiyer26@gmail.com          | Female | Melbourne     | Australia |  8 | f        | f        | f        | t        | f        |              1 |          8
+  9 | Vedant        | Shroff        | manutd.vedant@gmail.com         | Male   | Mumbai        | India     |  7 | t        | f        | f        | f        | f        |              1 |          9
+ 10 | Ashish        | Sinha         | f20170400@goa.bits-pilani.ac.in | Male   | Nashik        | India     |  9 | f        | t        | f        | f        | t        |              1 |         10
+ 11 | Bharat        | Agarwal       | conancone@gmail.com             | Male   | Siliguri      | India     | 10 | f        | f        | f        | f        | t        |              1 |         11
+ 12 | Mayank        | Kakkar        | hhhcena.kakkar@gmail.com        | Male   | Sancoale      | India     | 11 | f        | f        | f        | f        | t        |              1 |         12
+ 13 | Piyush        | Agarwal       | piyushagarwal0398@gmail.com     | Male   | Pune          | India     | 12 | f        | f        | f        | f        | t        |              1 |         13
+ 14 | Paarth        | Dassani       | paarthdassani@gmail.com         | Male   | Vasco Da Gama | India     | 13 | f        | f        | t        | f        | f        |              1 |         14
+ 15 | Ishika        | Gupta         | gupta.ishika2@gmail.com         | Female | Goa           | India     | 14 | f        | t        | f        | t        | f        |              1 |         15
+ 16 | Akanksha      | Joshi         | akanksha7997@gmail.com          | Female | Mumbai        | India     | 15 | f        | f        | f        | t        | f        |              1 |         16
+ 17 | Anamika       | Menon         | menon.anamika97@gmail.com       | Female | MUMBAI        | India     | 16 | f        | t        | t        | f        | f        |              1 |         17
+  5 | Rijul         | Ganguly       | f20170972@goa.bits-pilani.ac.in | Male   | Goa           | India     |  4 | f        | t        | f        | f        | f        |              1 |          5
+ 18 | Kartik        | Bhatia        | bhatiakartik10@gmail.com        | Male   | Noida         | India     | 17 | f        | t        | f        | f        | f        |              1 |         18
+ 19 | Synara        | Dsouza        | synara10.dsouza@gmail.com       | Female | Mumbai        | India     | 18 | f        | f        | f        | f        | t        |              1 |         19
+ 21 | Saransh       | Agarwal       | agsaransh98@gmail.com           | Male   | Siliguri      | India     | 19 | f        | f        | f        | f        | t        |              1 |         21
+ 22 | Rohit         | Poddar        | pdrrohit22@gmail.com            | Male   | BENGALURU     | India     | 20 | f        | f        | f        | t        | f        |              1 |         22
+ 23 | Chetan        | Dighe         | chetan.dighe@gmail.com          | Male   | Mumbai        | India     | 21 | f        | f        | f        | f        | t        |              1 |         23
+ 25 | Madhavi       | Gandhi        | madhavisgandhi@gmail.com        | Female | Pune          | India     | 22 | f        | t        | f        | t        | t        |              1 |         25
+ 27 | Aniruddha     | Desai         | ugpgmedfriend@gmail.com         | Male   | Davangere     | India     | 24 | f        | f        | f        | t        | f        |              1 |         27
+ 27 | Aniruddha     | Desai         | ugpgmedfriend@gmail.com         | Male   | Davangere     | India     | 23 | f        | f        | f        | t        | f        |              1 |         27
+ 29 | Anil          | Das           | anil@sharada.in                 | Male   | Mumbai        | India     | 25 | t        | t        | f        | t        | f        |              1 |         29
+ 33 | Amit          | D             | amit.dey@sakec.ac.in            | Male   | Mumbai        | India     | 26 | f        | f        | t        | f        | f        |              1 |         33
+ 34 | Smit          | Shah          | sanhok321@gmail.com             | Male   | Mumbai        | India     | 27 | f        | f        | f        | t        | t        |              1 |         34
+ 39 | Devanshi      | Panchal       | devanshi99panchal@gmail.com     | Female | Mumbai        | India     | 28 | f        | t        | t        | t        | t        |              1 |         39
+ 40 | Sakshi        | Shetty        | sakshishetty13@yahoo.com        | Female | Navi Mumbai   | India     | 30 | t        | f        | t        | t        | f        |              1 |         40
+ 41 | Madhulika     | Balakumar     | madhulika134@gmail.com          | Female | Bangalore     | India     | 29 | f        | t        | f        | f        | t        |              1 |         41
+ 42 | Harman        | Marshal       | marshalharman@gmail.com         | Male   | Goa           | India     | 31 | f        | f        | t        | f        | t        |              1 |         42
+ 45 | Het           | Shah          | divhet163@gmail.com             | Male   | Ahmedabad     | India     | 33 | f        | t        | f        | f        | t        |              1 |         45
+ 50 | Avishree      | Khare         | avishreekh@gmail.com            | Female | South Goa     | India     | 35 | t        | t        | f        | f        | f        |              1 |         50
+1 51 | GLEN          | FERNANDES     | f20160380@bits-pilani.ac.in     | Male   | Goa           | India     | 36 | f        | t        | f        | f        | f        |              1 |         51
+ 53 | Sundaram      | RM            | rmsundar1974@gmail.com          | Male   | Thane         | India     | 37 | f        | f        | f        | t        | f        |              1 |         53
+ 54 | DINESH        | MAKHIJANI     | dpm123mum@yahoo.in              | Male   | Mumbai        | India     | 42 | t        | t        | t        | t        | f        |              1 |         54
+ 55 | Deepa         | Dedhia        | mddedhia@gmail.com              | Female | Mumbai        | India     | 40 | t        | f        | f        | f        | f        |              1 |         55
+ 57 | Viju          | Chungath      | vijuchungath@yahoo.in           | Male   | Mumbai        | India     | 43 | f        | t        | f        | f        | t        |              1 |         57
+ 58 | Dimple        | Bahal         | dimple.bahal@gmail.com          | Female | Mumbai        | India     | 44 | t        | t        | t        | t        | t        |              1 |         58
+ 60 | Prakhar       | Satpute       | f20160025@goa.bits-pilani.ac.in | Male   | Sancoale      | India     | 45 | f        | t        | f        | f        | t        |              1 |         60
+ 61 | Dinku         | Sarmah        | f20160004@goa.bits-pilani.ac.in | Male   | vasco         | India     | 46 | t        | t        | f        | t        | t        |              1 |         61
+ 62 | Omkar         | Kanade        | f20160058@goa.bits-pilani.ac.in | Male   | Goa           | India     | 47 | t        | t        | f        | f        | f        |              1 |         62
+ 63 | Ashrut        | Kumar         | ashrut19oct@gmail.com           | Male   | Goa           | India     | 48 | f        | t        | t        | t        | f        |              1 |         63
+ 66 | Vineet        | Agarwal       | rklvineet@gmail.com             | Male   | Goa           | India     | 49 | t        | f        | t        | t        | t        |              1 |         66
+ 67 | Shashank      | Kulkarni      | renewablesglo@hotmail.com       | Male   | Pune          | India     | 50 | f        | f        | f        | t        | f        |              1 |         67
+ 68 | Jash          | Shah          | jashisgood@gmail.com            | Male   | Mumbai        | India     | 51 | f        | t        | f        | t        | t        |              1 |         68
+ 69 | Suhani        | Patwardhan    | suhani22patwardhan@gmail.com    | Female | Mumbai        | India     | 52 | f        | f        | f        | f        | t        |              1 |         69
+ 71 | tarini        | maheshwari    | tarinimaheshwari@gmail.com      | Female | mumbai        | India     | 53 | f        | f        | f        | f        | t        |              1 |         71
+ 72 | Ananya        | Sukhtankar    | sukhtankarananya@gmail.com      | Female | Mumbai        | India     | 54 | t        | t        | f        | t        | f        |              1 |         72
+ 73 | Nidhi         | Thakur        | nidhithakur00123@gmail.com      | Female | Mumbai        | India     | 58 | t        | f        | t        | t        | t        |              1 |         73
+ 73 | Nidhi         | Thakur        | nidhithakur00123@gmail.com      | Female | Mumbai        | India     | 57 | t        | f        | t        | t        | t        |              1 |         73
+ 73 | Nidhi         | Thakur        | nidhithakur00123@gmail.com      | Female | Mumbai        | India     | 56 | t        | f        | t        | t        | t        |              1 |         73
+ 74 | Karan         | Saklani       | karanskln@gmail.com             | Male   | Mumbai        | India     | 55 | t        | f        | t        | t        | f        |              1 |         74
+ 76 | Rema          | Ramnath       | remaramnath333@gmail.com        | Female | Mumbai        | India     | 59 | f        | t        | f        | f        | t        |              1 |         76
+ 78 | urvil         | jivani        | f20170943@goa.bits-pilani.ac.in | Male   | vasco         | India     | 60 | t        | t        | t        | f        | f        |              1 |         78
+ 79 | Nayana        | Balachandran  | nayana147@gmail.com             | Female | Bangalore     | India     | 61 | f        | t        | f        | f        | t        |              1 |         79
+ 80 | Poornesh      | S Babu        | poornesh7@gmail.com             | Male   | Vasco         | India     | 62 | f        | f        | f        | f        | t        |              1 |         80
+ 81 | Raghav        | Arora         | raghav.sofos@gmail.com          | Male   | Delhi         | India     | 63 | f        | t        | f        | f        | t        |              1 |         81
+ 82 | Paritosh      | Wechalekar    | PAWECHALEKAR@GMAIL.COM          | Male   | Mumbai        | India     | 64 | f        | t        | t        | f        | t        |              1 |         82
+ 83 | Harshvardhan  | Chandirasekar | f20180523@goa.bits-pilani.ac.in | Male   | Panjim        | India     | 65 | f        | t        | f        | f        | t        |              1 |         83
+ 84 | Neil          | Devare        | nhdevare@gmail.com              | Male   | Mumbai        | India     | 66 | f        | f        | t        | f        | f        |              1 |         84
+

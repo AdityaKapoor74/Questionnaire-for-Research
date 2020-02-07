@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5f9b02dd-dae1-47a6-8fb6-fd30c0309f0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question_feature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questionnaire_pt2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -99,7 +103,11 @@
       <workItem from="1571850928929" duration="16613000" />
       <workItem from="1572082631068" duration="602000" />
       <workItem from="1572085208931" duration="2192000" />
-      <workItem from="1572414768175" duration="3133000" />
+      <workItem from="1572414768175" duration="8727000" />
+      <workItem from="1573153120167" duration="598000" />
+      <workItem from="1575486774341" duration="177000" />
+      <workItem from="1578736513656" duration="1246000" />
+      <workItem from="1580146971611" duration="309000" />
     </task>
     <servers />
   </component>

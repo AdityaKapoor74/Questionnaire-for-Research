@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e5256f26-c37b-46bd-9e57-a3f66772c34b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneByOne/templates/OneByOne/question_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/templates/OneByOne/question_feature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questionnaire_pt1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/Questionnaire_pt2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/Questionnaire_pt2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Questionnaire_pt2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -102,7 +105,9 @@
       <workItem from="1571824894725" duration="656000" />
       <workItem from="1571825694853" duration="2882000" />
       <workItem from="1572082632125" duration="1163000" />
-      <workItem from="1572414769543" duration="4239000" />
+      <workItem from="1572414769543" duration="11644000" />
+      <workItem from="1573153121357" duration="2968000" />
+      <workItem from="1578737016340" duration="1473000" />
     </task>
     <servers />
   </component>
