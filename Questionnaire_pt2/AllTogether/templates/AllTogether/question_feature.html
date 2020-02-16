@@ -15,6 +15,14 @@
     <!------ Include the above in your HEAD tag ---------->
     <style>
         /* Split the screen in half */
+        LABEL.indented-checkbox-text
+        {
+          margin-left: 2em;
+          display: block;
+          position: relative;
+          margin-top: -2.0em;  /* make this margin match whatever your line-height is */
+          line-height: 1.4em;  /* can be set here, or elsewehere */
+        }
         body {
             padding-left: 20px;
         }
@@ -171,7 +179,14 @@
             <br>
             <input type="checkbox" name="feature" value="feature5">
               <img src="{{ i.feature1_E.url }}" class="img-fluid" style="width:174px;height:150px;"> <img src="{{ i.feature2_E.url }}" class="img-fluid" style="width:174px;height:150px;">
-                <br>
+            <br>
+            <input type="checkbox" name="feature" value="Color for classification">
+            <label for="myinput" class="indented-checkbox-text"><h3>I used only color for classification</h3></label>
+            <br>
+            <br>
+            <input type="checkbox" name="feature" value="None of the above">
+            <label for="myinput" class="indented-checkbox-text"><h3>None of the above features</h3></label>
+            <br>
             <br>
             <button type="submit" class="button button1">Submit Answer</button>
         </div>

@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9b02dd-dae1-47a6-8fb6-fd30c0309f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/question_feature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/Questionnaire_pt1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/templates/OneByOne/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/OneByOne/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt1/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/migrations/0002_auto_20191013_1710.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/migrations/0003_remove_userdetails_stimuli_attended.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/migrations/0004_auto_20191013_1719.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/question_feature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/templates/AllTogether/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/templates/AllTogether/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllTogether/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AllTogether/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/AllTogether/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questionnaire_pt2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -19,6 +36,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -108,6 +139,12 @@
       <workItem from="1575486774341" duration="177000" />
       <workItem from="1578736513656" duration="1246000" />
       <workItem from="1580146971611" duration="309000" />
+      <workItem from="1581110510702" duration="4573000" />
+      <workItem from="1581309273226" duration="646000" />
+      <workItem from="1581309950110" duration="2117000" />
+      <workItem from="1581312640298" duration="8664000" />
+      <workItem from="1581417738552" duration="1268000" />
+      <workItem from="1581872902585" duration="1740000" />
     </task>
     <servers />
   </component>

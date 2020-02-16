@@ -25,7 +25,7 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 DEBUG = True
 
 #ALLOWED_HOSTS = ['0.0.0.0', 'localhost','mighty-tor-88148.herokuapp.com/','127.0.0.1']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.241.147.12']
 
 # Application definition
 
@@ -76,15 +76,15 @@ WSGI_APPLICATION = 'Questionnaire_pt2.wsgi.application'
 DATABASES = {
     'default': {
         #SqLite
-        #'ENGINE': 'django.db.backends.sqlite3',
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         #Postgres
         'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME': 'questionnaire_2_db',
-        'USER': 'postgres',
+        'NAME': 'AllTogether',
+        'USER': 'aditya',
         'PASSWORD': 'Warmachine@42',
         'HOST': 'localhost',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 

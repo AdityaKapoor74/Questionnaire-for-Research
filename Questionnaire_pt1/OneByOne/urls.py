@@ -12,4 +12,5 @@ urlpatterns = [
     path('instructions/',views.instructions,name='instructions'),
     path('questions/',views.save_responses, name='save_responses'),
     path('Features/',views.save_responses_features, name='save_responses_features'),
+path('Description/',views.save_responses_description, name='save_responses_description'),
 ]

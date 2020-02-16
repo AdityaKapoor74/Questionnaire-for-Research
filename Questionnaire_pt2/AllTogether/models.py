@@ -65,6 +65,7 @@ class UserDetails(models.Model):
     gender = models.CharField(max_length=10,blank=True,null=True,default=None)
     city = models.CharField(max_length=100,blank=True,null=True,default=None)
     country = models.CharField(max_length=100,blank=True,null=True,default=None)
+    age = models.IntegerField(blank=True,null=True,default=None)
 
     def __str__(self):
         return self.first_name+' '+self.last_name
@@ -98,7 +99,7 @@ class QuestionFeatures(models.Model):
     def __str__(self):
         return self.question_text
 
-    question_text = models.CharField(max_length=100)
+    question_text = models.CharField(max_length=150)
 
 
 class ChoiceFeatures (models.Model):
@@ -124,12 +125,22 @@ class UserResponsesForFeatures(models.Model):
     class Meta:
         verbose_name_plural = "User Responses for features"
 
-    choice_1 = models.BooleanField(default=False, verbose_name='Feature_1')
-    choice_2 = models.BooleanField(default=False, verbose_name='Feature_2')
-    choice_3 = models.BooleanField(default=False, verbose_name='Feature_3')
-    choice_4 = models.BooleanField(default=False, verbose_name='Feature_4')
-    choice_5 = models.BooleanField(default=False, verbose_name='Feature_5')
-    # choice_6 = models.BooleanField(default=False, verbose_name='None of the above')
+    choice_1 = models.BooleanField(default=False, verbose_name='Lower Fin')
+    choice_2 = models.BooleanField(default=False, verbose_name='Tail')
+    choice_3 = models.BooleanField(default=False, verbose_name='Upper Fin')
+    choice_4 = models.BooleanField(default=False, verbose_name='Body Fin')
+    choice_5 = models.BooleanField(default=False, verbose_name='Mouth')
+    choice_6 = models.BooleanField(default=False, verbose_name='Color for classification')
+    choice_7 = models.BooleanField(default=False, verbose_name='None of the above')
 
     user_id = models.ForeignKey(UserDetails, on_delete=models.CASCADE, default=None, blank=True)
     choice_corr = models.ForeignKey(QuestionFeatures, on_delete=models.CASCADE, default=None, blank=True)
+
+class UserResponsesForDescription(models.Model):
+
+    class Meta:
+        verbose_name_plural = "User Responses for Description"
+
+    description = models.TextField(default=None, null=True, blank=True)
+
+    user_id = models.ForeignKey(UserDetails, on_delete=models.CASCADE, default=None, blank=True)

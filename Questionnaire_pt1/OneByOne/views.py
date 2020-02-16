@@ -13,7 +13,7 @@ def register(request):
 def register_done(request):
 
     if request.method=="POST":
-        if request.POST['firstname'] and request.POST['lastname'] and request.POST['email'] and request.POST['city'] and request.POST['country']:
+        if request.POST['firstname'] and request.POST['lastname'] and request.POST['email'] and request.POST['city'] and request.POST['country'] and request.POST['age']:
             # print('Hello')
             user=UserDetails()
             try:
@@ -26,6 +26,7 @@ def register_done(request):
                 user.email=email
                 user.first_name = request.POST['firstname']
                 user.last_name = request.POST['lastname']
+                user.age = request.POST['age']
 
                 option = request.POST.get("option",None)
                 if option in ["Male","Female","Other"]:
@@ -161,6 +162,10 @@ def save_responses_features(request):
                     user_response.choice_4 = True
                 if 'feature5' in feature:
                     user_response.choice_5 = True
+                if 'Color for classification' in feature:
+                    user_response.choice_6 = True
+                if 'None of the above' in feature:
+                    user_response.choice_7 = True
                 uid = request.session['user_id']
                 user_response.user_id = UserDetails.objects.get(pk=uid)
                 user_response.choice_corr = QuestionFeatures.objects.first()
@@ -171,6 +176,27 @@ def save_responses_features(request):
 
         except ValueError as e:
             return render(request,'OneByOne/question_feature.html.html',{'error':'Please select atleast one option from the following'})
+
+    # return render(request,'OneByOne/thankyou.html')
+    return render(request, 'OneByOne/description.html')
+
+def save_responses_description(request):
+    if request.method=="POST":
+        try:
+            desc = request.POST.get('description',None)
+            print(desc)
+            if len(desc)!=0:
+                user_response = UserResponsesForDescription()
+                user_response.description=desc
+                uid = request.session['user_id']
+                user_response.user_id = UserDetails.objects.get(pk=uid)
+                user_response.save()
+
+            else:
+                return render(request, 'OneByOne/description.html', {'error': 'Please fill in the description'})
+
+        except ValueError as e:
+            return render(request,'OneByOne/question_feature.html',{'error':'Please fill in the description'})
 
     return render(request,'OneByOne/thankyou.html')
 
