@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5256f26-c37b-46bd-9e57-a3f66772c34b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OneByOne/templates/OneByOne/description.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/templates/OneByOne/question_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/templates/OneByOne/question_feature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/templates/OneByOne/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/templates/OneByOne/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneByOne/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneByOne/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questionnaire_pt1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Questionnaire_pt1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/migrations/0002_auto_20191013_1710.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/migrations/0003_remove_userdetails_stimuli_attended.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/migrations/0004_auto_20191013_1719.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/question_feature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/question_feature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/templates/AllTogether/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/AllTogether/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/Questionnaire_pt2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/Questionnaire_pt2/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Questionnaire_pt2/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Questionnaire_pt2/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +111,8 @@
       <workItem from="1581312641525" duration="3358000" />
       <workItem from="1581417735946" duration="1285000" />
       <workItem from="1581872901116" duration="1317000" />
+      <workItem from="1581880605559" duration="1221000" />
+      <workItem from="1581922448729" duration="2207000" />
     </task>
     <servers />
   </component>

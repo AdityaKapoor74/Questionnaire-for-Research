@@ -49,6 +49,9 @@ def register_done(request):
                 user.save()
                 request.session['user_id'] = user.id
                 request.session['iteration'] = 1
+                request.session['list_of_stimuli'] = []
+                request.session['list_of_questions'] = []
+                request.session['flag']=True
             except ValueError as e:
                 return render(request,'AllTogether/register.html',{'error':'Incorrect values.Please try again.'})
 
@@ -65,7 +68,23 @@ def show_stimuli_one_by_one(request):
         user_id = request.session['user_id']
     #What to do if the session expires?
     user = get_object_or_404(UserDetails, pk=user_id)
-    helper = Stimuli.objects.first().id
+    if request.session['iteration']==1:
+        # print("In iteration 1")
+        request.session['list_of_stimuli'] = list(Stimuli.objects.all().values_list('id', flat=True))
+        # print("declared list")
+        # print(request.session['list_of_stimuli'])
+        id = request.session['list_of_stimuli'][request.session['iteration']-1]
+        # helper = request.session['list_of_stimuli'][0].id
+        helper=Stimuli.objects.get(pk=id)
+        # print("ID",helper)
+        # print("declared helper")
+        # request.session['list_of_stimuli'] = request.session['list_of_stimuli'][1:]
+        # print("reinitializing list")
+    else:
+        # helper = request.session['list_of_stimuli'][0].id
+        id = request.session['list_of_stimuli'][request.session['iteration']-1]
+        helper = Stimuli.objects.get(pk=id)
+        # request.session['list_of_stimuli'] = request.session['list_of_stimuli'][1:]
     if request.method=='POST':
         num1 = random.randrange(2, 12, 1)
         num2 = random.randrange(2, 12, 1)
@@ -81,7 +100,7 @@ def show_stimuli_one_by_one(request):
         return render(request,'AllTogether/distractor.html',context)
 
     context = {
-        'picture': Stimuli.objects.get(pk=helper),
+        'picture': helper,
     }
     return render(request, 'AllTogether/stimuli_display.html',context)
 
@@ -154,9 +173,16 @@ def save_responses(request):
         user_id = request.session['user_id']
     #What to do if the session expires?
     user = get_object_or_404(UserDetails,pk=user_id)
-    user_attended_questions = user.question_attended.all()
-    helper = list(Question.objects.exclude(id__in=user_attended_questions))
-    if (len(helper) == 0 and request.session['iteration'] == 4):
+    # user_attended_questions = user.question_attended.all()
+    # helper = list(Question.objects.exclude(id__in=user_attended_questions))
+    if request.session['iteration']<4 and request.session['flag']==False:
+        request.session['flag']=True
+        # user.question_attended.set([])
+        request.session['iteration']+=1
+        context = {'iteration_done':request.session['iteration']-1,'iteration_left':5-request.session['iteration']}
+        return render(request,'AllTogether/redo_quiz.html',context)
+
+    if request.session['iteration'] == 4:
         question_features = QuestionFeatures.objects.first()
         qid = QuestionFeatures.objects.first().id
         choice_features = ChoiceFeatures.objects.select_related().filter(question_rel=qid)
@@ -166,29 +192,77 @@ def save_responses(request):
             'options': choice_features
         }
         return render(request, 'AllTogether/question_feature.html', context)
-    if (len(helper)==0 and request.session['iteration']<4):
-        user.question_attended.set([])
+
+    if request.session['iteration']==1:
+        request.session['list_of_questions'] = list(Question.objects.all().values_list('id', flat=True))
+        print(request.session['list_of_questions'])
+        random.shuffle(request.session['list_of_questions'])
+        print(request.session['list_of_questions'])
+        id = request.session['list_of_questions'][request.session['iteration']-1]
+        print(id)
+        helper = Question.objects.get(pk=id)
+        request.session['flag']=False
+        print(helper)
+        options = list(Choice.objects.select_related().filter(question=id))
+        # random.shuffle(options)
+        context = {
+            'question': helper,
+            'options': options
+        }
+        return render(request, 'AllTogether/question.html', context)
+
+    else:
+        id = request.session['list_of_questions'][request.session['iteration']-1]
+        helper = Question.objects.get(pk=id)
+        request.session['flag'] = False
+        print(helper)
+        options = list(Choice.objects.select_related().filter(question=id))
+        # random.shuffle(options)
+        context = {
+            'question': helper,
+            'options': options
+        }
+        return render(request, 'AllTogether/question.html', context)
+
+    # if (len(helper) == 0 and request.session['iteration'] == 4):
+    #     question_features = QuestionFeatures.objects.first()
+    #     qid = QuestionFeatures.objects.first().id
+    #     choice_features = ChoiceFeatures.objects.select_related().filter(question_rel=qid)
+    #
+    #     context = {
+    #         'question': question_features,
+    #         'options': choice_features
+    #     }
+    #     return render(request, 'AllTogether/question_feature.html', context)
+    # options = list(Choice.objects.select_related().filter(question=id))
+    # # random.shuffle(options)
+    # context = {
+    #     'question': helper,
+    #     'options': options
+    # }
+    if request.session['iteration']<4:
+        # user.question_attended.set([])
         request.session['iteration']+=1
         context = {'iteration_done':request.session['iteration']-1,'iteration_left':5-request.session['iteration']}
         return render(request,'AllTogether/redo_quiz.html',context)
 
-    random.shuffle(helper)
-    helper = helper[0].id
+    # random.shuffle(helper)
+    # helper = helper[0].id
 
-    options = list(Choice.objects.select_related().filter(question=helper))
-    random.shuffle(options)
-    context = {
-        'question':Question.objects.get(pk=helper),
-        'options':options
-    }
+    # options = list(Choice.objects.select_related().filter(question=id))
+    # # random.shuffle(options)
+    # context = {
+    #     'question':Question.objects.get(pk=helper),
+    #     'options':options
+    # }
     # print("************************************************************")
     # print(type(Choice.objects.select_related().filter(question=helper)))
     # print(Choice.objects.select_related().filter(question=helper))
-    request.session['question_id']=helper
-    helper=Question.objects.get(pk=helper)
-    user.question_attended.add(helper)
+    # request.session['question_id']=helper
+    # helper=Question.objects.get(pk=helper)
+    # user.question_attended.add(helper)
 
-    return render(request, 'AllTogether/question.html',context)
+    # return render(request, 'AllTogether/question.html',context)
 
 
 def save_responses_features(request):

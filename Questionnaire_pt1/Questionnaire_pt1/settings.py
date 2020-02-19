@@ -79,15 +79,15 @@ WSGI_APPLICATION = 'Questionnaire_pt1.wsgi.application'
 DATABASES = {
     'default': {
         #SqLite
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         #Postgres
-        #'ENGINE':'django.db.backends.postgresql_psycopg2',
-        #'NAME': 'questionnaire_pt1',
-        #'USER': 'postgres',
-        #'PASSWORD': 'Warmachine@42',
-        #'HOST': 'localhost',
-        #'PORT': '5432',
+        'ENGINE':'django.db.backends.postgresql_psycopg2',
+        'NAME': 'OneByOne',
+        'USER': 'postgres',
+        'PASSWORD': 'Warmachine@42',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
