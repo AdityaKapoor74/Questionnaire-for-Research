@@ -49,6 +49,9 @@ def register_done(request):
                 user.save()
                 request.session['user_id'] = user.id
                 request.session['iteration'] = 1
+                request.session['list_of_stimuli'] = []
+                request.session['list_of_questions'] = []
+                request.session['flag'] = True
             except ValueError as e:
                 return render(request,'OneByOne/register.html',{'error':'Incorrect values.Please try again.'})
 
@@ -65,7 +68,24 @@ def show_stimuli_one_by_one(request):
         user_id = request.session['user_id']
     #What to do if the session expires?
     user = get_object_or_404(UserDetails,pk=user_id)
-    helper = Stimuli.objects.first().id
+    if request.session['iteration']==1:
+        # print("In iteration 1")
+        request.session['list_of_stimuli'] = list(Stimuli.objects.all().values_list('id', flat=True))
+        # print("declared list")
+        # print(request.session['list_of_stimuli'])
+        id = request.session['list_of_stimuli'][request.session['iteration']-1]
+        # helper = request.session['list_of_stimuli'][0].id
+        helper=Stimuli.objects.get(pk=id)
+        # print("ID",helper)
+        # print("declared helper")
+        # request.session['list_of
+        # _stimuli'] = request.session['list_of_stimuli'][1:]
+        # print("reinitializing list")
+    else:
+        # helper = request.session['list_of_stimuli'][0].id
+        id = request.session['list_of_stimuli'][request.session['iteration']-1]
+        helper = Stimuli.objects.get(pk=id)
+    # helper = Stimuli.objects.first().id
     if request.method=='POST':
         num1 = random.randrange(2, 12, 1)
         num2 = random.randrange(2, 12, 1)
@@ -81,7 +101,7 @@ def show_stimuli_one_by_one(request):
         return render(request,'OneByOne/distractor.html',context)
 
     context = {
-        'picture':Stimuli.objects.get(pk=helper),
+        'picture':helper,
     }
 
     return render(request, 'OneByOne/stimuli_display.html',context)
